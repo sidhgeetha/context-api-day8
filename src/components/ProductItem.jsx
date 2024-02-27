@@ -46,46 +46,38 @@ const ProductItem = ({ item, index, total, setTotal, setCount }) => {
   ;
 
   return (
-    <div className="container">
+    <div className="container ">
       <div
         className="card mb-3  d-flex justify-content-center"
         style={{
           maxWidth: "1200px",
-          marginLeft: "200px",
-          marginRight: "200px",
+          // marginLeft: "200px",
+          // marginRight: "200px",
           boxShadow: "0px 5px 5px rgba(0, 0, 0, 0.1",
         }}
       >
-        <div class="row ">
+        <div class="row g-0">
           <div class="col-md-4">
             <img
               src={item.thumbnail}
-              class="rounded-start"
+              class="rounded-start img fluid card-img-top"
               width="300"
               height="300"
             ></img>
           </div>
+
           <div class="col-md-8">
-            <div class="card-body">
-              <h5
-                class="card-title "
-                style={{ fontWeight: "bold", marginLeft: "20px" }}
-              >
+            <div class="card-body d-flex flex-column justify-content-between h-100">
+              <h5 class="card-title " style={{ fontWeight: "bold" }}>
                 {item.title}
               </h5>
-              <p
-                class="card-text"
-                style={{ fontWeight: "bold", marginLeft: "20px" }}
-              >
+              <p class="card-text" style={{ fontWeight: "bold" }}>
                 {item.description}
               </p>
-              <p
-                class="card-text"
-                style={{ fontWeight: "bold", marginLeft: "20px" }}
-              >
+              <p class="card-text" style={{ fontWeight: "bold" }}>
                 {totalPrice}
               </p>
-              <div style={{ marginLeft: "20px" }}>
+              <div>
                 <button
                   style={{
                     padding: "6px",
@@ -97,11 +89,11 @@ const ProductItem = ({ item, index, total, setTotal, setCount }) => {
                 >
                   -
                 </button>
-                <label>{quantity}</label>
+                <label className="mx-2">{quantity}</label>
                 <button
                   style={{
                     padding: "6px",
-                    margin: "12px",
+
                     backgroundColor: "#deb887",
                     borderRadius: "12px",
                   }}
@@ -114,8 +106,8 @@ const ProductItem = ({ item, index, total, setTotal, setCount }) => {
               <br></br>
               <button
                 type="button"
-                class="btn btn-danger"
-                style={{ marginTop: "12px" ,marginLeft:"20px" }}
+                class="btn btn-danger mt-2"
+                style={{ marginTop: "12px", marginLeft: "20px" }}
               >
                 Remove
               </button>
