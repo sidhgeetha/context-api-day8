@@ -9,7 +9,7 @@ const products = [
     stock: 94,
     brand: "Apple",
     category: "smartphones",
-    thumbnail: "src/assets/65975.jpg",
+    thumbnail: "assets/65975.jpg",
     images: [
       "https://i.dummyjson.com/data/products/1/1.jpg",
       "https://i.dummyjson.com/data/products/1/2.jpg",
@@ -29,7 +29,7 @@ const products = [
     stock: 34,
     brand: "Apple",
     category: "smartphones",
-    thumbnail: "src/assets/65975.jpg",
+    thumbnail: "assets/65975.jpg",
     images: [
       "https://i.dummyjson.com/data/products/2/1.jpg",
       "https://i.dummyjson.com/data/products/2/2.jpg",
@@ -48,7 +48,7 @@ const products = [
     stock: 36,
     brand: "Samsung",
     category: "smartphones",
-    thumbnail: "src/assets/65975.jpg",
+    thumbnail: "assets/65975.jpg",
     images: ["https://i.dummyjson.com/data/products/3/1.jpg"],
   },
   {
@@ -61,7 +61,7 @@ const products = [
     stock: 123,
     brand: "OPPO",
     category: "smartphones",
-    thumbnail: "src/assets/65975.jpg",
+    thumbnail: "assets/65975.jpg",
     images: [
       "https://i.dummyjson.com/data/products/4/1.jpg",
       "https://i.dummyjson.com/data/products/4/2.jpg",
@@ -81,7 +81,7 @@ const products = [
     stock: 32,
     brand: "Huawei",
     category: "smartphones",
-    thumbnail: "src/assets/65975.jpg",
+    thumbnail: "assets/65975.jpg",
     images: [
       "https://i.dummyjson.com/data/products/5/1.jpg",
       "https://i.dummyjson.com/data/products/5/2.jpg",
